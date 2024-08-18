@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20.0"
+      fx:controller="com.michaelmckibbin.demo2scenes.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <!--  use a button to open the new window-->
+    <Button fx:id="helloButton" text="hello view!" onAction="#onHelloButtonClick"/>
+    <Label fx:id="view1Text"/>
+    <Button fx:id="button1" text="**View1!" onAction="#onView1ButtonClick"/>
+    <Label fx:id="view2Text"/>
+    <Button fx:id="button2" text="View2!" onAction="#onView2ButtonClick"/>
+    <Label fx:id="view3Text"/>
+    <Button fx:id="button3" text="View3!" onAction="#onView3ButtonClick"/>
+
+</VBox>
